@@ -7,7 +7,10 @@ import { HomeModule } from "./home/home.module";
   selector: "app-root",
   standalone: true,
   imports: [CommonModule, RouterOutlet, HomeModule],
-  template: ` <home /> `,
+  template: `
+    Module Component: 👇👇
+    <home />
+  `,
   styles: [],
 })
 export class AppComponent {
